@@ -15282,14 +15282,6 @@ dtype: int64</pre>
 
 </div>
 
-</div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Now, we've successfully removed all missing values from the dataset. We then identify and remove any outliers in our data:</p>
-
-</div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -16420,14 +16412,32 @@ dtype: int64</pre>
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Below-we-created-bins-to-highlight-certain-variables-and-their-differences">Below we created bins to highlight certain variables and their differences<a class="anchor-link" href="#Below-we-created-bins-to-highlight-certain-variables-and-their-differences">&#182;</a></h3><h2 id="Binning:-we-are-esstentially-creating-'bins'">Binning: we are esstentially creating 'bins'<a class="anchor-link" href="#Binning:-we-are-esstentially-creating-'bins'">&#182;</a></h2>
+<p>Below we created bins to highlight certain variables and their differences</p>
+
 </div>
 </div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">Binning</span><span class="p">:</span> <span class="n">we</span> <span class="n">are</span> <span class="n">esstentially</span> <span class="n">creating</span> <span class="s1">&#39;bins&#39;</span> 
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
 </div>
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="This-shows-the-binning-of-3-major-age-groups">This shows the binning of 3 major age groups<a class="anchor-link" href="#This-shows-the-binning-of-3-major-age-groups">&#182;</a></h2>
+<p>This shows the binning of 3 major age groups</p>
+
 </div>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -16496,7 +16506,7 @@ dtype: int64</pre>
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="This-is-the-binning-taking-a-look-at-the-4-different-chest-pains:">This is the binning taking a look at the 4 different chest pains:<a class="anchor-link" href="#This-is-the-binning-taking-a-look-at-the-4-different-chest-pains:">&#182;</a></h2><ul>
+<h2 id="Taking-a-look-at-the-4-different-chest-pains:">Taking a look at the 4 different chest pains:<a class="anchor-link" href="#Taking-a-look-at-the-4-different-chest-pains:">&#182;</a></h2><ul>
 <li>asymptomatic (largest bin)</li>
 <li>typical angina </li>
 <li>atypical angina</li>
@@ -16601,7 +16611,8 @@ dtype: int64</pre>
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="These-are-some-of-the-factors-that-can-cause-heart-attacks,-in-particular,-they're-some-of-the-variables-that-are-known-to-Jason-that-could-have-played-a-role-in-his-father's-heart-attack.-We-want-to-invesigate-how-accurately-could-this-generic-male-be-classified-in-whether-they-did-or-did-not-have-a-heart-attack.">These are some of the factors that can cause heart-attacks, in particular, they're some of the variables that are known to Jason that could have played a role in his father's heart-attack. We want to invesigate how accurately could this generic male be classified in whether they did or did not have a heart-attack.<a class="anchor-link" href="#These-are-some-of-the-factors-that-can-cause-heart-attacks,-in-particular,-they're-some-of-the-variables-that-are-known-to-Jason-that-could-have-played-a-role-in-his-father's-heart-attack.-We-want-to-invesigate-how-accurately-could-this-generic-male-be-classified-in-whether-they-did-or-did-not-have-a-heart-attack.">&#182;</a></h4>
+<p>These are some of the factors that can cause heart-attacks, in particular, they're some of the variables that are known to Jason that could have played a role in his father's heart-attack. We want to invesigate how accurately could this generic male be classified in whether they did or did not have a heart-attack.</p>
+
 </div>
 </div>
 </div>
@@ -17062,7 +17073,21 @@ dtype: int64</pre>
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Train/test our data. We're going to be use a 80/20 split which is fairly common, we're saying train our classifier on 80% of our data and reserve the 20% of our data to be the test of how we trained it. The random state is just basically a 'seed' that if you wanted to reproduce these results but still have a randomness factor, use this seed. The number 42 is a bit of an inside joke that comes from the Hitchhiker's Guide to the Galaxy written by Douglas Adams. It is still just a seed.</p>
+<h2> Classifiers </h2>
+</div>
+</div>
+</div>
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h4> Test/Train </h4>
+</div>
+</div>
+</div>
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>We're going to be use a 80/20 split which is fairly common, we're saying train our classifier on 80% of our data and reserve the 20% of our data to be the test of how we trained it. The random state is just basically a 'seed' that if you wanted to reproduce these results but still have a randomness factor, use this seed. The number 42 is a bit of an inside joke that comes from the Hitchhiker's Guide to the Galaxy written by Douglas Adams. It is still just a seed.</p>
 
 </div>
 </div>
@@ -17128,6 +17153,22 @@ dtype: int64</pre>
 <span class="n">y_train</span> <span class="o">=</span> <span class="n">train</span><span class="p">[</span><span class="n">cn</span><span class="p">]</span>
 <span class="n">X_test</span> <span class="o">=</span> <span class="n">test</span><span class="p">[</span><span class="n">fn</span><span class="p">]</span>
 <span class="n">y_test</span> <span class="o">=</span> <span class="n">test</span><span class="p">[</span><span class="n">cn</span><span class="p">]</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">&lt;</span><span class="n">h4</span><span class="o">&gt;</span> <span class="n">Logistic</span> <span class="n">Regression</span> <span class="o">&lt;/</span><span class="n">h4</span><span class="o">&gt;</span>
 </pre></div>
 
      </div>
@@ -17208,6 +17249,22 @@ chol             0.0062      0.003      2.197      0.028       0.001       0.012
 
 </div>
 
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">&lt;</span><span class="n">h4</span><span class="o">&gt;</span> <span class="n">Confusion</span> <span class="n">Matrix</span> <span class="o">&lt;/</span><span class="n">h4</span><span class="o">&gt;</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
 </div>
 
 </div>
@@ -17464,6 +17521,22 @@ False negatives:  3
 </div>
 </div>
 
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">&lt;</span><span class="n">h4</span><span class="o">&gt;</span> <span class="n">Decision</span> <span class="n">Tree</span> <span class="o">&lt;/</span><span class="n">h4</span><span class="o">&gt;</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
 </div>
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
@@ -17692,6 +17765,22 @@ False negatives:  3
 
 </div>
 
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">&lt;</span><span class="n">h4</span><span class="o">&gt;</span> <span class="n">K</span><span class="o">-</span><span class="n">Nearest</span><span class="o">-</span><span class="n">Neighbors</span> <span class="o">&lt;/</span><span class="n">h4</span><span class="o">&gt;</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
 </div>
 
 </div>
